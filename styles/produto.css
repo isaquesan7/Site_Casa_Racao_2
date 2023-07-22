@@ -1,0 +1,180 @@
+.conteudo{
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+section.produto{
+    display: inline-block;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.produto-single{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10px 20px;
+}
+
+.produto-single img{
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 25%;
+    box-shadow: 8px 10px 20px #687688;
+
+}
+
+.produto-single p{
+    display: flex;
+    padding: 10px 10px;
+    color: rgb(239, 184, 16);
+    background-color: white;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.produto-single h1{
+    color: #004AAD;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+section.produto h3{
+    margin-bottom: 20px;
+}
+
+.button-produto{
+    display: block;
+    padding-bottom: 100px;
+}
+
+.button-produto button{
+    background: white;
+    padding: 20px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-produto button:hover{
+    background: #0073ff;
+    color: white;
+}
+
+section.produto > h1{
+    position: relative;
+    bottom: 50px;
+    color: #004AAD;
+    cursor: pointer;
+}
+
+section.produto > h1:hover{
+    color: #0073ff;
+}
+
+section.info{
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+section.info > p{
+    padding: 40px;
+    text-align: justify;
+}
+
+.indicacao{
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.indicacao p{
+    padding: 40px;
+    text-align: justify;
+}
+
+.indicacao b{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    .conteudo{
+        padding: 0 10px;
+    }
+
+    section.produto{
+        display: block;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .produto-single{
+        display: block;
+    }
+
+    .produto-single img{
+        width: 50%;
+    }
+
+    .produto-single p{
+        display: block;
+        margin: 20px;
+        background: none;
+    }
+
+    .produto-single > h1{
+        text-align: center;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .button-produto{
+        display: block;
+        position: initial;
+        margin-bottom: 70px;
+        padding: 0 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .button-produto button{
+        padding: 15px 15px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    section.produto > h1{
+        padding: 0 10px;
+    }
+
+    section.info{
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .indicacao{
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
