@@ -76,6 +76,11 @@ section.produto h3{
     color: white;
 }
 
+.button-produto button i{
+    color: rgb(239, 184, 16);
+    animation: pulse 1s linear infinite;
+}
+
 section.produto a{
     text-decoration: none;
     color: #004AAD;
@@ -186,4 +191,21 @@ section.info > p{
         width: 100%;
         word-wrap: break-word;
     }
+}
+
+@keyframes pulse {
+
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+       -webkit-transform: scale(0.5);
+       transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+       transform: scale(1);
+    }
+
 }
