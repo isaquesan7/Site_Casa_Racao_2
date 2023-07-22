@@ -191,6 +191,10 @@ section.info > p{
         width: 100%;
         word-wrap: break-word;
     }
+
+    .produto-single img:hover{
+        transform: scale(2, 2);
+    }
 }
 
 @keyframes pulse {
